@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9E3906C1C214C000051D5F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3906B1C214C000051D5F7 /* AppDelegate.swift */; };
+		D9E3906E1C214C000051D5F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3906D1C214C000051D5F7 /* ViewController.swift */; };
+		D9E390711C214C000051D5F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E3906F1C214C000051D5F7 /* Main.storyboard */; };
+		D9E390731C214C000051D5F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E390721C214C000051D5F7 /* Assets.xcassets */; };
+		D9E390761C214C000051D5F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E390741C214C000051D5F7 /* LaunchScreen.storyboard */; };
+		D9E390811C214C000051D5F7 /* GedetiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E390801C214C000051D5F7 /* GedetiTests.swift */; };
+		D9E3908C1C214C000051D5F7 /* GedetiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3908B1C214C000051D5F7 /* GedetiUITests.swift */; };
+		D9E3909F1C214CF00051D5F7 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3909E1C214CF00051D5F7 /* SWRevealViewController.m */; };
+		D9E390A11C214DD60051D5F7 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E390A01C214DD60051D5F7 /* Function.swift */; };
+		D9E390A31C214FC00051D5F7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E390A21C214FC00051D5F7 /* Home.swift */; };
+		D9E390A51C214FE90051D5F7 /* MyTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E390A41C214FE90051D5F7 /* MyTickets.swift */; };
+		D9E390A71C214FFF0051D5F7 /* NewTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E390A61C214FFF0051D5F7 /* NewTicket.swift */; };
+		D9E390A91C21501A0051D5F7 /* TicketsWaiting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E390A81C21501A0051D5F7 /* TicketsWaiting.swift */; };
+		D9E390AB1C2150320051D5F7 /* TicketsSolved.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E390AA1C2150320051D5F7 /* TicketsSolved.swift */; };
+		D9E390AD1C2150650051D5F7 /* ManageUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E390AC1C2150650051D5F7 /* ManageUsers.swift */; };
+		D9E390AF1C21591C0051D5F7 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E390AE1C21591C0051D5F7 /* Menu.swift */; };
+		D9E390B11C216D170051D5F7 /* CustomElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E390B01C216D170051D5F7 /* CustomElement.swift */; };
+		F811C1561C450A3700F0F70B /* editTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F811C1551C450A3700F0F70B /* editTicket.swift */; };
+		F89F36611C6B465000D4282A /* ManageUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F36601C6B465000D4282A /* ManageUser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9E3907D1C214C000051D5F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9E390601C214C000051D5F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E390671C214C000051D5F7;
+			remoteInfo = Gedeti;
+		};
+		D9E390881C214C000051D5F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9E390601C214C000051D5F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E390671C214C000051D5F7;
+			remoteInfo = Gedeti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9E390681C214C000051D5F7 /* Gedeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gedeti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E3906B1C214C000051D5F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9E3906D1C214C000051D5F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9E390701C214C000051D5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9E390721C214C000051D5F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9E390751C214C000051D5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9E390771C214C000051D5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E3907C1C214C000051D5F7 /* GedetiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GedetiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E390801C214C000051D5F7 /* GedetiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GedetiTests.swift; sourceTree = "<group>"; };
+		D9E390821C214C000051D5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E390871C214C000051D5F7 /* GedetiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GedetiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E3908B1C214C000051D5F7 /* GedetiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GedetiUITests.swift; sourceTree = "<group>"; };
+		D9E3908D1C214C000051D5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E3909C1C214CEF0051D5F7 /* Gedeti-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gedeti-Bridging-Header.h"; sourceTree = "<group>"; };
+		D9E3909D1C214CF00051D5F7 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "External Source/SWRevealViewController.h"; sourceTree = "<group>"; };
+		D9E3909E1C214CF00051D5F7 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "External Source/SWRevealViewController.m"; sourceTree = "<group>"; };
+		D9E390A01C214DD60051D5F7 /* Function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		D9E390A21C214FC00051D5F7 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D9E390A41C214FE90051D5F7 /* MyTickets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTickets.swift; sourceTree = "<group>"; };
+		D9E390A61C214FFF0051D5F7 /* NewTicket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTicket.swift; sourceTree = "<group>"; };
+		D9E390A81C21501A0051D5F7 /* TicketsWaiting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsWaiting.swift; sourceTree = "<group>"; };
+		D9E390AA1C2150320051D5F7 /* TicketsSolved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsSolved.swift; sourceTree = "<group>"; };
+		D9E390AC1C2150650051D5F7 /* ManageUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageUsers.swift; sourceTree = "<group>"; };
+		D9E390AE1C21591C0051D5F7 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		D9E390B01C216D170051D5F7 /* CustomElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomElement.swift; sourceTree = "<group>"; };
+		F811C1551C450A3700F0F70B /* editTicket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editTicket.swift; sourceTree = "<group>"; };
+		F89F36601C6B465000D4282A /* ManageUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageUser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9E390651C214C000051D5F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E390791C214C000051D5F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E390841C214C000051D5F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9E3905F1C214C000051D5F7 = {
+			isa = PBXGroup;
+			children = (
+				D9E3906A1C214C000051D5F7 /* Gedeti */,
+				D9E3907F1C214C000051D5F7 /* GedetiTests */,
+				D9E3908A1C214C000051D5F7 /* GedetiUITests */,
+				D9E390691C214C000051D5F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9E390691C214C000051D5F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9E390681C214C000051D5F7 /* Gedeti.app */,
+				D9E3907C1C214C000051D5F7 /* GedetiTests.xctest */,
+				D9E390871C214C000051D5F7 /* GedetiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9E3906A1C214C000051D5F7 /* Gedeti */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3909B1C214CD40051D5F7 /* ExternalSources */,
+				D9E3906B1C214C000051D5F7 /* AppDelegate.swift */,
+				D9E3906D1C214C000051D5F7 /* ViewController.swift */,
+				D9E3906F1C214C000051D5F7 /* Main.storyboard */,
+				D9E390721C214C000051D5F7 /* Assets.xcassets */,
+				D9E390741C214C000051D5F7 /* LaunchScreen.storyboard */,
+				D9E390771C214C000051D5F7 /* Info.plist */,
+				D9E390A01C214DD60051D5F7 /* Function.swift */,
+				D9E390A21C214FC00051D5F7 /* Home.swift */,
+				D9E390A41C214FE90051D5F7 /* MyTickets.swift */,
+				D9E390A61C214FFF0051D5F7 /* NewTicket.swift */,
+				D9E390A81C21501A0051D5F7 /* TicketsWaiting.swift */,
+				D9E390AA1C2150320051D5F7 /* TicketsSolved.swift */,
+				D9E390AC1C2150650051D5F7 /* ManageUsers.swift */,
+				D9E390AE1C21591C0051D5F7 /* Menu.swift */,
+				D9E390B01C216D170051D5F7 /* CustomElement.swift */,
+				F811C1551C450A3700F0F70B /* editTicket.swift */,
+				F89F36601C6B465000D4282A /* ManageUser.swift */,
+			);
+			path = Gedeti;
+			sourceTree = "<group>";
+		};
+		D9E3907F1C214C000051D5F7 /* GedetiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9E390801C214C000051D5F7 /* GedetiTests.swift */,
+				D9E390821C214C000051D5F7 /* Info.plist */,
+			);
+			path = GedetiTests;
+			sourceTree = "<group>";
+		};
+		D9E3908A1C214C000051D5F7 /* GedetiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3908B1C214C000051D5F7 /* GedetiUITests.swift */,
+				D9E3908D1C214C000051D5F7 /* Info.plist */,
+			);
+			path = GedetiUITests;
+			sourceTree = "<group>";
+		};
+		D9E3909B1C214CD40051D5F7 /* ExternalSources */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3909D1C214CF00051D5F7 /* SWRevealViewController.h */,
+				D9E3909E1C214CF00051D5F7 /* SWRevealViewController.m */,
+				D9E3909C1C214CEF0051D5F7 /* Gedeti-Bridging-Header.h */,
+			);
+			name = ExternalSources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9E390671C214C000051D5F7 /* Gedeti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E390901C214C000051D5F7 /* Build configuration list for PBXNativeTarget "Gedeti" */;
+			buildPhases = (
+				D9E390641C214C000051D5F7 /* Sources */,
+				D9E390651C214C000051D5F7 /* Frameworks */,
+				D9E390661C214C000051D5F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gedeti;
+			productName = Gedeti;
+			productReference = D9E390681C214C000051D5F7 /* Gedeti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9E3907B1C214C000051D5F7 /* GedetiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E390931C214C000051D5F7 /* Build configuration list for PBXNativeTarget "GedetiTests" */;
+			buildPhases = (
+				D9E390781C214C000051D5F7 /* Sources */,
+				D9E390791C214C000051D5F7 /* Frameworks */,
+				D9E3907A1C214C000051D5F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9E3907E1C214C000051D5F7 /* PBXTargetDependency */,
+			);
+			name = GedetiTests;
+			productName = GedetiTests;
+			productReference = D9E3907C1C214C000051D5F7 /* GedetiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9E390861C214C000051D5F7 /* GedetiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E390961C214C000051D5F7 /* Build configuration list for PBXNativeTarget "GedetiUITests" */;
+			buildPhases = (
+				D9E390831C214C000051D5F7 /* Sources */,
+				D9E390841C214C000051D5F7 /* Frameworks */,
+				D9E390851C214C000051D5F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9E390891C214C000051D5F7 /* PBXTargetDependency */,
+			);
+			name = GedetiUITests;
+			productName = GedetiUITests;
+			productReference = D9E390871C214C000051D5F7 /* GedetiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9E390601C214C000051D5F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gedeti Entreprise";
+				TargetAttributes = {
+					D9E390671C214C000051D5F7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BZE86AZM4E;
+					};
+					D9E3907B1C214C000051D5F7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BZE86AZM4E;
+						TestTargetID = D9E390671C214C000051D5F7;
+					};
+					D9E390861C214C000051D5F7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BZE86AZM4E;
+						TestTargetID = D9E390671C214C000051D5F7;
+					};
+				};
+			};
+			buildConfigurationList = D9E390631C214C000051D5F7 /* Build configuration list for PBXProject "Gedeti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9E3905F1C214C000051D5F7;
+			productRefGroup = D9E390691C214C000051D5F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9E390671C214C000051D5F7 /* Gedeti */,
+				D9E3907B1C214C000051D5F7 /* GedetiTests */,
+				D9E390861C214C000051D5F7 /* GedetiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9E390661C214C000051D5F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E390761C214C000051D5F7 /* LaunchScreen.storyboard in Resources */,
+				D9E390731C214C000051D5F7 /* Assets.xcassets in Resources */,
+				D9E390711C214C000051D5F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E3907A1C214C000051D5F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E390851C214C000051D5F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9E390641C214C000051D5F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E3906E1C214C000051D5F7 /* ViewController.swift in Sources */,
+				F89F36611C6B465000D4282A /* ManageUser.swift in Sources */,
+				D9E390AD1C2150650051D5F7 /* ManageUsers.swift in Sources */,
+				D9E390A91C21501A0051D5F7 /* TicketsWaiting.swift in Sources */,
+				D9E390B11C216D170051D5F7 /* CustomElement.swift in Sources */,
+				D9E390AB1C2150320051D5F7 /* TicketsSolved.swift in Sources */,
+				D9E3906C1C214C000051D5F7 /* AppDelegate.swift in Sources */,
+				D9E390AF1C21591C0051D5F7 /* Menu.swift in Sources */,
+				D9E390A31C214FC00051D5F7 /* Home.swift in Sources */,
+				D9E3909F1C214CF00051D5F7 /* SWRevealViewController.m in Sources */,
+				D9E390A71C214FFF0051D5F7 /* NewTicket.swift in Sources */,
+				D9E390A11C214DD60051D5F7 /* Function.swift in Sources */,
+				F811C1561C450A3700F0F70B /* editTicket.swift in Sources */,
+				D9E390A51C214FE90051D5F7 /* MyTickets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E390781C214C000051D5F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E390811C214C000051D5F7 /* GedetiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E390831C214C000051D5F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E3908C1C214C000051D5F7 /* GedetiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9E3907E1C214C000051D5F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E390671C214C000051D5F7 /* Gedeti */;
+			targetProxy = D9E3907D1C214C000051D5F7 /* PBXContainerItemProxy */;
+		};
+		D9E390891C214C000051D5F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E390671C214C000051D5F7 /* Gedeti */;
+			targetProxy = D9E390881C214C000051D5F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9E3906F1C214C000051D5F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E390701C214C000051D5F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9E390741C214C000051D5F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E390751C214C000051D5F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9E3908E1C214C000051D5F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9E3908F1C214C000051D5F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9E390911C214C000051D5F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Gedeti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gedeti.Entreprise.Gedeti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gedeti/Gedeti-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9E390921C214C000051D5F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Gedeti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gedeti.Entreprise.Gedeti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gedeti/Gedeti-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D9E390941C214C000051D5F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GedetiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gedeti.Entreprise.GedetiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gedeti.app/Gedeti";
+			};
+			name = Debug;
+		};
+		D9E390951C214C000051D5F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GedetiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gedeti.Entreprise.GedetiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gedeti.app/Gedeti";
+			};
+			name = Release;
+		};
+		D9E390971C214C000051D5F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GedetiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gedeti.Entreprise.GedetiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gedeti;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D9E390981C214C000051D5F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GedetiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gedeti.Entreprise.GedetiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gedeti;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9E390631C214C000051D5F7 /* Build configuration list for PBXProject "Gedeti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E3908E1C214C000051D5F7 /* Debug */,
+				D9E3908F1C214C000051D5F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E390901C214C000051D5F7 /* Build configuration list for PBXNativeTarget "Gedeti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E390911C214C000051D5F7 /* Debug */,
+				D9E390921C214C000051D5F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E390931C214C000051D5F7 /* Build configuration list for PBXNativeTarget "GedetiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E390941C214C000051D5F7 /* Debug */,
+				D9E390951C214C000051D5F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E390961C214C000051D5F7 /* Build configuration list for PBXNativeTarget "GedetiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E390971C214C000051D5F7 /* Debug */,
+				D9E390981C214C000051D5F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9E390601C214C000051D5F7 /* Project object */;
+}
